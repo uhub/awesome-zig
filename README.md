@@ -18,18 +18,14 @@ A curated list of awesome Zig frameworks, libraries and software.
 	* [HTTP and Networking Clients](#http-and-networking-clients)
 	* [Frontend and UI Components](#frontend-and-ui-components)
 	* [Web Servers and Proxies](#web-servers-and-proxies)
-	* [Scraping and Crawling](#scraping-and-crawling)
 * Data and Storage
 	* [Databases](#databases)
 	* [Database Clients and ORMs](#database-clients-and-orms)
 	* [Serialization and Formats](#serialization-and-formats)
 	* [Caching and Queues](#caching-and-queues)
-	* [Search and Indexing](#search-and-indexing)
 * Machine Learning and AI
 	* [LLM and Inference](#llm-and-inference)
 	* [Machine Learning Frameworks](#machine-learning-frameworks)
-	* [Computer Vision](#computer-vision)
-	* [Data Science and Analytics](#data-science-and-analytics)
 * Networking and Distributed
 	* [Networking](#networking)
 	* [RPC and Messaging](#rpc-and-messaging)
@@ -61,7 +57,6 @@ A curated list of awesome Zig frameworks, libraries and software.
 	* [Logging and Configuration](#logging-and-configuration)
 	* [Text Processing](#text-processing)
 	* [Files and Operating System](#files-and-operating-system)
-	* [Date and Time](#date-and-time)
 	* [Automation and Scripting](#automation-and-scripting)
 	* [General Purpose Libraries](#general-purpose-libraries)
 * Systems and Hardware
@@ -348,11 +343,6 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [ikskuh/zig-serve](https://github.com/ikskuh/zig-serve) - Server implementations for several protocols in Zig. Includes http(s), gemini and gopher
 * [AndrewGossage/Zoi](https://github.com/AndrewGossage/Zoi) - Ultra simple zig server
 
-### Scraping and Crawling
-
-* [lightpanda-io/browser](https://github.com/lightpanda-io/browser) - Lightpanda: the headless browser designed for AI and automation
-* [justrach/kuri](https://github.com/justrach/kuri) - Browser automation, web crawling, and iOS + Android device control for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, native adb wire-protocol client, and a standalone fetcher.
-
 ## Data and Storage
 
 ### Databases
@@ -435,13 +425,6 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [taskforcesh/bullmq-redis](https://github.com/taskforcesh/bullmq-redis) - BullMQ - Redis Module for handling queues of jobs and messages.
 * [sectasy0/zcached](https://github.com/sectasy0/zcached) - Lightweight and efficient in-memory caching system akin to databases like Redis.
 
-### Search and Indexing
-
-* [natecraddock/zf](https://github.com/natecraddock/zf) - a commandline fuzzy finder and zig module designed for filtering filepaths
-* [antflydb/antfly](https://github.com/antflydb/antfly)
-* [acoustid/acoustid-index](https://github.com/acoustid/acoustid-index) - Minimalistic search engine searching in audio fingerprints from Chromaprint
-* [aikoschurmann/zog](https://github.com/aikoschurmann/zog) - ⚡ A blisteringly fast, zero-allocation JSONL search engine in Zig. Query and aggregate massive datasets at 4.0 GB/s using SIMD-accelerated "Blind Scanning." Up to 50x faster than jq.
-
 ## Machine Learning and AI
 
 ### LLM and Inference
@@ -492,16 +475,6 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [andrewCodeDev/ZEIN](https://github.com/andrewCodeDev/ZEIN) - Zig-based implementation of tensors
 * [mattn/zig-tflite](https://github.com/mattn/zig-tflite) - Zig binding for TensorFlow Lite
 * [recursiveGecko/onnxruntime.zig](https://github.com/recursiveGecko/onnxruntime.zig) - Incomplete experimental Zig wrapper for ONNX Runtime with examples (Silero VAD, NSNet2)
-
-### Computer Vision
-
-* [ryoppippi/zigcv](https://github.com/ryoppippi/zigcv) - zig bindings for OpenCV4
-* [xirf/macula](https://github.com/xirf/macula) - Lightweight OCR error detection and correction engine built in Zig *(archived)*
-
-### Data Science and Analytics
-
-* [jamii/dida](https://github.com/jamii/dida) - Differential dataflow for mere mortals *(archived)*
-* [Remy2701/zigplotlib](https://github.com/Remy2701/zigplotlib) - A simple library for plotting graphs in Zig
 
 ## Networking and Distributed
 
@@ -911,8 +884,8 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [lalinsky/zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig
 * [kprotty/zap](https://github.com/kprotty/zap) - An asynchronous runtime with a focus on performance and resource efficiency.
 * [Cloudef/zig-aio](https://github.com/Cloudef/zig-aio) - io_uring like asynchronous API and coroutine powered IO tasks for zig
-* [rsepassi/zigcoro](https://github.com/rsepassi/zigcoro) - A Zig coroutine library
 * [tardy-org/tardy](https://github.com/tardy-org/tardy) - An asynchronous runtime for writing applications and services. Supports io_uring, epoll, kqueue, and poll for I/O.
+* [rsepassi/zigcoro](https://github.com/rsepassi/zigcoro) - A Zig coroutine library
 * [kython28/leviathan](https://github.com/kython28/leviathan) - A lightning-fast Zig-powered event loop for Python's asyncio.
 * [boonzy00/ringmpsc](https://github.com/boonzy00/ringmpsc) - Lock-free MPSC channel in Zig achieving 180+ billion messages/second via ring-decomposed architecture
 * [lithdew/pike](https://github.com/lithdew/pike) - Async I/O for Zig
@@ -1059,12 +1032,6 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [TibboddiT/dyn-loader](https://github.com/TibboddiT/dyn-loader) - dlopen for zig, from static executables and without libc
 * [marlersoft/win32jsongen](https://github.com/marlersoft/win32jsongen) - Generates the JSON Win32 metadata files for: https://github.com/marlersoft/win32json
 * [GoNZooo/zig-win32](https://github.com/GoNZooo/zig-win32) - Bindings for win32, with and without WIN32_LEAN_AND_MEAN *(archived)*
-
-### Date and Time
-
-* [rockorager/zeit](https://github.com/rockorager/zeit) - a date and time library written in zig. Timezone, DST, and leap second aware
-* [frmdstryr/zig-datetime](https://github.com/frmdstryr/zig-datetime) - A date and time module for Zig
-* [nektro/zig-time](https://github.com/nektro/zig-time) - A date and time parsing and formatting library for Zig.
 
 ### Automation and Scripting
 
@@ -1220,23 +1187,32 @@ A curated list of awesome Zig frameworks, libraries and software.
 
 ## Other
 
+* [lightpanda-io/browser](https://github.com/lightpanda-io/browser) - Lightpanda: the headless browser designed for AI and automation
 * [tonybanters/oxwm](https://github.com/tonybanters/oxwm)
 * [spiraldb/ziggy-pydust](https://github.com/spiraldb/ziggy-pydust) - A toolkit for building Python extensions in Zig.
+* [natecraddock/zf](https://github.com/natecraddock/zf) - a commandline fuzzy finder and zig module designed for filtering filepaths
+* [jamii/dida](https://github.com/jamii/dida) - Differential dataflow for mere mortals *(archived)*
+* [antflydb/antfly](https://github.com/antflydb/antfly)
 * [chung-leong/zigar](https://github.com/chung-leong/zigar) - Toolkit enabling the use of Zig code in JavaScript and PHP projects
 * [Jarred-Sumner/hop](https://github.com/Jarred-Sumner/hop)
+* [justrach/kuri](https://github.com/justrach/kuri) - Browser automation, web crawling, and iOS + Android device control for AI agents. Zig-native, token-efficient CDP snapshots, HAR recording, native adb wire-protocol client, and a standalone fetcher.
 * [paralogical/rarest-move-in-chess](https://github.com/paralogical/rarest-move-in-chess) - Analyze compressed chess pgn files to determine the rarest move
 * [hdresearch/ziggit](https://github.com/hdresearch/ziggit)
+* [rockorager/zeit](https://github.com/rockorager/zeit) - a date and time library written in zig. Timezone, DST, and leap second aware
 * [Srekel/tides-of-revival](https://github.com/Srekel/tides-of-revival)
 * [jamii/jams](https://github.com/jamii/jams)
+* [ryoppippi/zigcv](https://github.com/ryoppippi/zigcv) - zig bindings for OpenCV4
 * [jamii/zest](https://github.com/jamii/zest)
 * [boldsoftware/exe.dev](https://github.com/boldsoftware/exe.dev) - just use ssh
 * [marler8997/zigx](https://github.com/marler8997/zigx)
 * [pig-dot-dev/piglet](https://github.com/pig-dot-dev/piglet)
 * [external-mirrors/phoenix](https://github.com/external-mirrors/phoenix)
 * [NishantJoshi00/flipper-template](https://github.com/NishantJoshi00/flipper-template)
+* [frmdstryr/zig-datetime](https://github.com/frmdstryr/zig-datetime) - A date and time module for Zig
 * [sphaerophoria/sphmap](https://github.com/sphaerophoria/sphmap) - It's a sphmap
 * [Thomvanoorschot/zigma](https://github.com/Thomvanoorschot/zigma) - Zigma is an algorithmic trading framework built with the Zig programming language, leveraging an actor-based concurrency model. It aims to provide an efficient, low-latency system for algorithmic trading through components handling market data, strategy execution, order management, risk, and data persistence.
 * [yukmakoto/zed2api](https://github.com/yukmakoto/zed2api)
+* [acoustid/acoustid-index](https://github.com/acoustid/acoustid-index) - Minimalistic search engine searching in audio fingerprints from Chromaprint
 * [drcode/zek](https://github.com/drcode/zek)
 * [pyozig/PyOZ](https://github.com/pyozig/PyOZ) - PyOZ - Zig's power meets Python's simplicity. Build blazing-fast extensions with zero boilerplate and zero Python C API headaches.
 * [furunkel/zig.rb](https://github.com/furunkel/zig.rb) - Write Ruby extensions in Zig!
@@ -1244,19 +1220,23 @@ A curated list of awesome Zig frameworks, libraries and software.
 * [comrade-T/handmade-studio](https://github.com/comrade-T/handmade-studio)
 * [katafrakt/zig-ruby](https://github.com/katafrakt/zig-ruby)
 * [and-rs/nvim](https://github.com/and-rs/nvim) - im fast
+* [nektro/zig-time](https://github.com/nektro/zig-time) - A date and time parsing and formatting library for Zig.
 * [ThePrimeagen/BunSpreader](https://github.com/ThePrimeagen/BunSpreader) - We spread the buns
 * [cztomsik/napigen](https://github.com/cztomsik/napigen) - Automatic N-API (server-side javascript) bindings for your Zig project.
 * [NicoElbers/nixPatch-nvim](https://github.com/NicoElbers/nixPatch-nvim) - This repository has been moved to codeberg *(archived)*
 * [kotsutsumi/zylix](https://github.com/kotsutsumi/zylix)
 * [The-Memory-Managers/cpu-vs-ai](https://github.com/The-Memory-Managers/cpu-vs-ai) - Boot.dev hackathon 2025
+* [Remy2701/zigplotlib](https://github.com/Remy2701/zigplotlib) - A simple library for plotting graphs in Zig
 * [rauchg/rst](https://github.com/rauchg/rst)
 * [rarnu/ExGhostty](https://github.com/rarnu/ExGhostty)
 * [DockYard/zap](https://github.com/DockYard/zap)
 * [kristoff-it/awebo](https://github.com/kristoff-it/awebo) - Mirror of https://codeberg.org/kristoff/awebo
 * [BUNotesAI/ghostty-dev](https://github.com/BUNotesAI/ghostty-dev)
+* [aikoschurmann/zog](https://github.com/aikoschurmann/zog) - ⚡ A blisteringly fast, zero-allocation JSONL search engine in Zig. Query and aggregate massive datasets at 4.0 GB/s using SIMD-accelerated "Blind Scanning." Up to 50x faster than jq.
 * [lithdew/hyperia](https://github.com/lithdew/hyperia)
 * [PikaOS-Linux/falcond](https://github.com/PikaOS-Linux/falcond)
 * [ringtailsoftware/obfusgator](https://github.com/ringtailsoftware/obfusgator) - obfusgator.zig
+* [xirf/macula](https://github.com/xirf/macula) - Lightweight OCR error detection and correction engine built in Zig *(archived)*
 * [redwoodjs/machinen](https://github.com/redwoodjs/machinen) - Machinen
 * [RohanVashisht1234/donut](https://github.com/RohanVashisht1234/donut)
 * [tsoding/pogfish](https://github.com/tsoding/pogfish) - pogfish
